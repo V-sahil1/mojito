@@ -45,8 +45,8 @@ function Hero() {
           scrub: true,
         },
       })
-      .to(".right-leaf", { y: -200 }, 0)
-      .to(".left-leaf", { y: 200 }, 0);
+      .to(".right-leaf", { y: 200 }, 0)
+      .to(".left-leaf", { y: -200 }, 0);
       const startValue = ismobile ? 'top 50%' : 'center 60%';
       const endValue = ismobile ? '120% top' : 'bottom top';
      let t1  = gsap.timeline({
@@ -62,6 +62,7 @@ function Hero() {
         t1.to(videoRef.current,{
             currentTime :videoRef.current.duration
         })
+        
       }
   }, []);
   return (
