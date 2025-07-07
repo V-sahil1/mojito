@@ -25,7 +25,7 @@ function Hero() {
       xPercent: 100,
       duration: 1.8,
       ease: "expo.out",
-      stagger: 0.06,
+      stagger: 0.06,  
       delay: 1,
     });
     gsap.from(paragraphSplit1.lines, {

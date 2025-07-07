@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <nav className="px-20">
       <div className="px-20">
-        <a href="#home" className="flex px-9 items-center gap-2">
+        <a href="/" className="flex px-9 items-center gap-2">
           <img src="/images/logo.png" alt="" />
           <p>The Gentle Pour</p>
         </a>
