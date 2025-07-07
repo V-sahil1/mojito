@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +14,7 @@
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
-    --font-serif: "DM Serif Text", serif;
+    --font-serif: "DM Serif Display", serif;
 }
 
 html,
@@ -59,7 +59,7 @@ body {
         mask-image: url("/images/mask-img.png");
         mask-repeat: no-repeat;
         mask-position: center;
-        mask-size: 50%;
+        mask-size:50%;
     }
 }
 
@@ -261,7 +261,7 @@ body {
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+                @apply  font-modern-negra text-center mb-10 text-white mt-32;
             }
 
             div {
