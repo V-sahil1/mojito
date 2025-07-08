@@ -2,7 +2,6 @@ import React from 'react'
 import { cocktailLists, mockTailLists } from '../../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-
 function Cocktails() {
     useGSAP(()=>{
         const parallaxTimeline = gsap.timeline({
