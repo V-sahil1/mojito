@@ -117,24 +117,25 @@ const openingHours = [
 ];
 
 const socials = [
- {
-	name: "Instagram",
-	icon: "/images/insta.png",
-	url: "#",
- },
- {
-	name: "X (Twitter)",
-	icon: "/images/x.png",
-	url: "#",
- },
- {
-	name: "Facebook",
-	icon: "/images/fb.png",
-	url: "#",
- },
+  {
+    name: "Instagram",
+    icon: "/images/insta.png",
+    url: "https://www.instagram.com",
+  },
+  {
+    name: "X (Twitter)",
+    icon: "/images/x.png",
+    url: "https://x.com", // Previously twitter.com
+  },
+  {
+    name: "Facebook",
+    icon: "/images/fb.png",
+    url: "https://www.facebook.com",
+  },
 ];
 
-const sliderLists = [
+
+const allCocktails = [
  {
 	id: 1,
 	name: "Classic Mojito",
@@ -179,5 +180,5 @@ export {
  openingHours,
  storeInfo,
  socials,
- sliderLists,
+ allCocktails,
 };
