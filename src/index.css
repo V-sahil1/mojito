@@ -284,6 +284,7 @@ body {
         #m-left-leaf {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
         }
+        
 
         #m-right-leaf {
             @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
